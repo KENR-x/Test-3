@@ -6,7 +6,7 @@ class Test
         Console.WriteLine("Введите значение x: ");
         int x = Convert.ToInt32(Console.ReadLine());
         double y = (double)(x - 10) / (x * 10);
-        Console.WriteLine("Число:  " + y);
-
+        Console.WriteLine("Результат Число:  " + y*2);
+        
     }
 }
